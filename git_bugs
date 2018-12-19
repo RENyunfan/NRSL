@@ -1,0 +1,22 @@
+##git遇见的一些问题
+每次建立新的仓库，提交的时总会出现这样的错误。Updates were rejected because the remote contains work that you do
+
+错误的git 提交的步骤：
+
+git init //初始化仓库
+git add .(文件name) //添加文件到本地仓库
+git commit -m “first commit” //添加文件描述信息
+git remote add origin + 远程仓库地址 //链接远程仓库，创建主分支
+git push -u origin master //把本地仓库的文件推送到远程仓库 
+这样就显示这样的问题了，如下图。 
+
+经过查资料发现是因为我们在本地新建库后，与远程仓库的内容不一致导致的。为此在我向远程库推送的时候，要先进行pull，让本地新建的库和远程库进行同步。 
+正确步骤： 
+```
+1. git init //初始化仓库 
+2. git add .(文件name) //添加文件到本地仓库 
+3. git commit -m “first commit” //添加文件描述信息 
+4. git remote add origin + 远程仓库地址 //链接远程仓库，创建主分支 
+5. git pull origin master // 把本地仓库的变化连接到远程仓库主分支 
+6. git push -u origin master //把本地仓库的文件推送到远程仓库
+```

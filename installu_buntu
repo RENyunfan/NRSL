@@ -1,0 +1,44 @@
+#Return to Beginning
+##1
+run windows shell and do as follows to delete ubunt booter
+```
+diskpart
+select disk 0
+select partition 1
+assign letter = p
+exit
+
+p:
+cd ./EFI
+rm ubuntu 
+y
+```
+
+##2
+use rufuse or anyother tools to make your ubuntu install flash
+##3
+Start with BIOS and set the starting mode as UEFI wits CSM
+close the secure strat mode
+##4
+start with your disk
+move the guangbiao][ to 'install' and type 'e'
+add 'nomodeset' after splash
+##5
+install
+##6
+install zsh with following commonds
+```
+```
+
+##7 fix firmware
+when you see
+```
+W: Possible missing firmware /lib/firmware/i915/kbl_guc_ver9_14.bin for module i915
+W: Possible missing firmware /lib/firmware/i915/bxt_guc_ver8_7.bin for module i915
+```
+move the tow to lib/....
+##8
+To find available packages, use:
+```
+apt-cache search ros-kinetic
+```
