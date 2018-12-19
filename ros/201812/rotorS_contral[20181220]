@@ -1,0 +1,101 @@
+#作业完成思路
+##0 编译依赖
+rotorS的编译依赖
+
+```
+sudo apt-get install ros-kinetic-geographic-msgs
+
+sudo apt install python-pip 
+
+pip install future
+
+sudo apt-get install build-essential cmake git libgeographic-dev
+```
+
+##1 控制模型在world中的摆放
+打开一个world文件，观察如何将tag固定启动在某个位置
+```
+    <include>
+      <uri>model://speed_limit_sign</uri>
+      <name>speed_sign_1</name>
+      <static>true</static>
+      <pose>15 -5 0 0 0 1.5707</pose>
+    </include>
+```
+注意：gazebo有时候打不开，是模型出问题了【例如文件名写错了】
+##2 选择合适位置
+打开一个空gazebo 手动调位置后记住参数
+```
+Tag0 ： 0 -2.5 2 0 0 0
+Tag1 ： 0 2.5 2 0 0 0
+Tag3 ： 0 5 2 0 0 0
+Tag4 ：0 7.5 2 0 0 0
+```
+##3 c++类与成员函数
+研究apt的位置返回值，寻找目标抢位置
+```
+  float a,b,c;
+  a = msg->detections.data()->pose.pose.pose.position.x;
+  b = msg->detections.data()->pose.pose.pose.position.y;
+  c = msg->detections.data()->pose.pose.pose.position.z;
+```
+
+
+##4 欧拉角与四元数
+学习四元数
+##5 消息类型的嵌套
+
+分解tagdetection
+```
+Type: apriltags2_ros/AprilTagDetectionArray
+
+```
+```
+
+std_msgs/Header header
+  uint32 seq
+  time stamp
+  string frame_id
+apriltags2_ros/AprilTagDetection[] detections
+  int32[] id
+  float64[] size
+  geometry_msgs/PoseWithCovarianceStamped pose
+    std_msgs/Header header
+      uint32 seq
+      time stamp
+      string frame_id
+    geometry_msgs/PoseWithCovariance pose
+      geometry_msgs/Pose pose
+        geometry_msgs/Point position
+          float64 x
+          float64 y
+          float64 z
+        geometry_msgs/Quaternion orientation
+          float64 x
+          float64 y
+          float64 z
+          float64 w
+      float64[36] covariance
+
+```
+##6 位置信息
+|无人机|tag|
+|-----|------|
+|0 1 5|-0.8 0.6 1.73|
+|0 1 3|-0.73 0.03 1.55|
+|0 1 1|-0.75 -0.5 1.52|
+
+##7 cout可能出现越界
+```
+void callback(const apriltags2_ros::AprilTagDetectionArray::ConstPtr& msg)
+{
+    if(msg->detections.empty()) return;//这一句话非常重要！！
+    cout<<"x = :"<< msg->detections.data()->pose.pose.pose.position.x<<endl;
+}
+```
+
+***
+
+###完成消息的读取和发布 只差消息的变换了
+
+

@@ -1,0 +1,37 @@
+
+#rostopic pub 的使用【待完善】
+```
+rostopic pub /firefly/command/pose geometry_msgs/PoseStamped
+```
+
+```
+➜  ~ rostopic info /firefly/command/pose 
+Type: geometry_msgs/PoseStamped
+
+Publishers: None
+
+Subscribers: 
+ * /firefly/lee_position_controller_node (http://skylap:43327/)
+
+
+➜  ~ rosmsg show geometry_msgs/PoseStamped
+std_msgs/Header header
+  uint32 seq
+  time stamp
+  string frame_id
+geometry_msgs/Pose pose
+  geometry_msgs/Point position
+    float64 x
+    float64 y
+    float64 z
+  geometry_msgs/Quaternion orientation
+    float64 x
+    float64 y
+    float64 z
+    float64 w
+```
+
+```
+rostopic pub /firefly/command/pose geometry_msgs/PoseStamped '{header: {stamp: now, frame_id: base_link}, pose: {position:  [1.0, 2.0, 3.0]}'
+
+```
