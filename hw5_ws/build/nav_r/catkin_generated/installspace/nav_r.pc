@@ -1,0 +1,8 @@
+prefix=/home/kevin/workSpace/hw5_ws/install
+
+Name: nav_r
+Description: Description of nav_r
+Version: 0.0.0
+Cflags: -I/home/kevin/workSpace/hw5_ws/install/include
+Libs: -L/home/kevin/workSpace/hw5_ws/install/lib 
+Requires: roscpp rospy std_msgs geometry_msgs sensor_msgs std_msgs message_runtime

@@ -1,0 +1,8 @@
+prefix=/home/kevin/workSpace/hw5_ws/install
+
+Name: rotors_joy_interface
+Description: Description of rotors_joy_interface
+Version: 2.1.1
+Cflags: -I/home/kevin/workSpace/hw5_ws/install/include
+Libs: -L/home/kevin/workSpace/hw5_ws/install/lib 
+Requires: roscpp geometry_msgs mav_msgs sensor_msgs trajectory_msgs

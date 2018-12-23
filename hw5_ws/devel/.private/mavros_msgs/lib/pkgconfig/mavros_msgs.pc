@@ -1,0 +1,8 @@
+prefix=/home/kevin/workSpace/hw5_ws/devel/.private/mavros_msgs
+
+Name: mavros_msgs
+Description: Description of mavros_msgs
+Version: 0.26.3
+Cflags: -I/home/kevin/workSpace/hw5_ws/devel/.private/mavros_msgs/include -I/home/kevin/workSpace/hw5_ws/src/mavros/mavros_msgs/include
+Libs: -L/home/kevin/workSpace/hw5_ws/devel/.private/mavros_msgs/lib 
+Requires: geometry_msgs sensor_msgs geographic_msgs message_runtime std_msgs

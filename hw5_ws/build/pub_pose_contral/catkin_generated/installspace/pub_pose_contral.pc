@@ -1,0 +1,8 @@
+prefix=/home/kevin/workSpace/hw5_ws/install
+
+Name: pub_pose_contral
+Description: Description of pub_pose_contral
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/kevin/workSpace/hw5_ws/install/lib 
+Requires: 

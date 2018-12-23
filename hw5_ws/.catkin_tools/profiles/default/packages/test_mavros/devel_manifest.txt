@@ -1,0 +1,6 @@
+mavros/test_mavros
+/home/kevin/workSpace/hw5_ws/devel/.private/test_mavros/share/test_mavros/cmake/test_mavrosConfig.cmake /home/kevin/workSpace/hw5_ws/devel/share/test_mavros/cmake/test_mavrosConfig.cmake
+/home/kevin/workSpace/hw5_ws/devel/.private/test_mavros/share/test_mavros/cmake/test_mavrosConfig-version.cmake /home/kevin/workSpace/hw5_ws/devel/share/test_mavros/cmake/test_mavrosConfig-version.cmake
+/home/kevin/workSpace/hw5_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so /home/kevin/workSpace/hw5_ws/devel/lib/libmavros_sitl_test.so
+/home/kevin/workSpace/hw5_ws/devel/.private/test_mavros/lib/pkgconfig/test_mavros.pc /home/kevin/workSpace/hw5_ws/devel/lib/pkgconfig/test_mavros.pc
+/home/kevin/workSpace/hw5_ws/devel/.private/test_mavros/lib/test_mavros/sitl_test_node /home/kevin/workSpace/hw5_ws/devel/lib/test_mavros/sitl_test_node

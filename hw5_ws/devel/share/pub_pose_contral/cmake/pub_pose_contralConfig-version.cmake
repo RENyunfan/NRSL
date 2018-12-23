@@ -1,0 +1,1 @@
+/home/kevin/workSpace/hw5_ws/devel/.private/pub_pose_contral/share/pub_pose_contral/cmake/pub_pose_contralConfig-version.cmake

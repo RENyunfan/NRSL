@@ -1,0 +1,5 @@
+pub_pose_contral
+/home/kevin/workSpace/hw5_ws/devel/.private/pub_pose_contral/share/pub_pose_contral/cmake/pub_pose_contralConfig.cmake /home/kevin/workSpace/hw5_ws/devel/share/pub_pose_contral/cmake/pub_pose_contralConfig.cmake
+/home/kevin/workSpace/hw5_ws/devel/.private/pub_pose_contral/share/pub_pose_contral/cmake/pub_pose_contralConfig-version.cmake /home/kevin/workSpace/hw5_ws/devel/share/pub_pose_contral/cmake/pub_pose_contralConfig-version.cmake
+/home/kevin/workSpace/hw5_ws/devel/.private/pub_pose_contral/lib/pkgconfig/pub_pose_contral.pc /home/kevin/workSpace/hw5_ws/devel/lib/pkgconfig/pub_pose_contral.pc
+/home/kevin/workSpace/hw5_ws/devel/.private/pub_pose_contral/lib/pub_pose_contral/pub /home/kevin/workSpace/hw5_ws/devel/lib/pub_pose_contral/pub

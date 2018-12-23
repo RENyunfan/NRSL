@@ -1,0 +1,8 @@
+prefix=/home/kevin/workSpace/hw5_ws/devel/.private/rotors_gazebo
+
+Name: rotors_gazebo
+Description: Description of rotors_gazebo
+Version: 2.1.1
+Cflags: 
+Libs: -L/home/kevin/workSpace/hw5_ws/devel/.private/rotors_gazebo/lib 
+Requires: gazebo_msgs geometry_msgs mav_msgs roscpp sensor_msgs

@@ -1,0 +1,8 @@
+prefix=/home/kevin/workSpace/hw5_ws/install
+
+Name: rotors_comm
+Description: Description of rotors_comm
+Version: 2.1.1
+Cflags: -I/home/kevin/workSpace/hw5_ws/install/include
+Libs: -L/home/kevin/workSpace/hw5_ws/install/lib 
+Requires: message_runtime

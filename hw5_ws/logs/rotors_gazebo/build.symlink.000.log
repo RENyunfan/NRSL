@@ -1,0 +1,6 @@
+Symlinking /home/kevin/workSpace/hw5_ws/devel/share/rotors_gazebo/cmake/rotors_gazeboConfig-version.cmake
+Symlinking /home/kevin/workSpace/hw5_ws/devel/share/rotors_gazebo/cmake/rotors_gazeboConfig.cmake
+Symlinking /home/kevin/workSpace/hw5_ws/devel/lib/pkgconfig/rotors_gazebo.pc
+Symlinking /home/kevin/workSpace/hw5_ws/devel/lib/rotors_gazebo/waypoint_publisher
+Symlinking /home/kevin/workSpace/hw5_ws/devel/lib/rotors_gazebo/waypoint_publisher_file
+Symlinking /home/kevin/workSpace/hw5_ws/devel/lib/rotors_gazebo/hovering_example

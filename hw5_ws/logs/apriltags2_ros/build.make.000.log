@@ -1,0 +1,142 @@
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[  0%] Built target std_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target _apriltags2_ros_generate_messages_check_deps_AnalyzeSingleImage[0m
+[  0%] Built target _apriltags2_ros_generate_messages_check_deps_AnalyzeSingleImage
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target _apriltags2_ros_generate_messages_check_deps_AprilTagDetectionArray[0m
+[  0%] Built target _apriltags2_ros_generate_messages_check_deps_AprilTagDetectionArray
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_cpp[0m
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target _apriltags2_ros_generate_messages_check_deps_AprilTagDetection[0m
+[  0%] Built target _apriltags2_ros_generate_messages_check_deps_AprilTagDetection
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_eus[0m
+[  0%] Built target sensor_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[  0%] Built target std_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[  0%] Built target geometry_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_nodejs[0m
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[  0%] Built target std_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[  0%] Built target std_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_lisp[0m
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_py[0m
+[  0%] Built target sensor_msgs_generate_messages_py
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[  0%] Built target std_msgs_generate_messages_py
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[  0%] Built target geometry_msgs_generate_messages_py
+[35m[1mScanning dependencies of target apriltags2_ros_generate_messages_cpp[0m
+[  3%] [34m[1mGenerating C++ code from apriltags2_ros/AprilTagDetection.msg[0m
+[  6%] [34m[1mGenerating C++ code from apriltags2_ros/AprilTagDetectionArray.msg[0m
+[ 10%] [34m[1mGenerating C++ code from apriltags2_ros/AnalyzeSingleImage.srv[0m
+[ 10%] Built target apriltags2_ros_generate_messages_cpp
+[35m[1mScanning dependencies of target apriltags2_ros_generate_messages_eus[0m
+[ 13%] [34m[1mGenerating EusLisp code from apriltags2_ros/AprilTagDetection.msg[0m
+[ 16%] [34m[1mGenerating EusLisp code from apriltags2_ros/AprilTagDetectionArray.msg[0m
+[ 20%] [34m[1mGenerating EusLisp code from apriltags2_ros/AnalyzeSingleImage.srv[0m
+[ 23%] [34m[1mGenerating EusLisp manifest code for apriltags2_ros[0m
+[ 23%] Built target apriltags2_ros_generate_messages_eus
+[35m[1mScanning dependencies of target apriltags2_ros_generate_messages_nodejs[0m
+[ 26%] [34m[1mGenerating Javascript code from apriltags2_ros/AprilTagDetection.msg[0m
+[ 30%] [34m[1mGenerating Javascript code from apriltags2_ros/AprilTagDetectionArray.msg[0m
+[ 33%] [34m[1mGenerating Javascript code from apriltags2_ros/AnalyzeSingleImage.srv[0m
+[ 33%] Built target apriltags2_ros_generate_messages_nodejs
+[35m[1mScanning dependencies of target apriltags2_ros_generate_messages_lisp[0m
+[ 36%] [34m[1mGenerating Lisp code from apriltags2_ros/AprilTagDetection.msg[0m
+[ 40%] [34m[1mGenerating Lisp code from apriltags2_ros/AprilTagDetectionArray.msg[0m
+[ 43%] [34m[1mGenerating Lisp code from apriltags2_ros/AnalyzeSingleImage.srv[0m
+[ 43%] Built target apriltags2_ros_generate_messages_lisp
+[35m[1mScanning dependencies of target apriltags2_ros_generate_messages_py[0m
+[ 46%] [34m[1mGenerating Python from MSG apriltags2_ros/AprilTagDetection[0m
+[ 50%] [34m[1mGenerating Python from MSG apriltags2_ros/AprilTagDetectionArray[0m
+[ 53%] [34m[1mGenerating Python code from SRV apriltags2_ros/AnalyzeSingleImage[0m
+[ 56%] [34m[1mGenerating Python msg __init__.py for apriltags2_ros[0m
+[35m[1mScanning dependencies of target common[0m
+[ 60%] [34m[1mGenerating Python srv __init__.py for apriltags2_ros[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/common.dir/src/common_functions.cpp.o[0m
+[ 63%] Built target apriltags2_ros_generate_messages_py
+[35m[1mScanning dependencies of target apriltags2_ros_generate_messages[0m
+[ 63%] Built target apriltags2_ros_generate_messages
+In file included from [01m[K/home/kevin/workSpace/hw5_ws/src/apriltags2_ros-master/apriltags2/include/apriltag.h:42:0[m[K,
+                 from [01m[K/home/kevin/workSpace/hw5_ws/src/apriltags2_ros-master/apriltags2_ros/include/apriltags2_ros/common_functions.h:67[m[K,
+                 from [01m[K/home/kevin/workSpace/hw5_ws/src/apriltags2_ros-master/apriltags2_ros/src/common_functions.cpp:32[m[K:
+[01m[K/home/kevin/workSpace/hw5_ws/src/apriltags2_ros-master/apriltags2/include/common/matd.h:[m[K In function ‘[01m[Kint matd_is_vector_len(const matd_t*, int)[m[K’:
+[01m[K/home/kevin/workSpace/hw5_ws/src/apriltags2_ros-master/apriltags2/include/common/matd.h:280:39:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [-Wsign-compare]
+     return (a->ncols == 1 && a->nrows == len) || (a->ncols == len && a->nrows == 1);
+[01;32m[K                                       ^[m[K
+[01m[K/home/kevin/workSpace/hw5_ws/src/apriltags2_ros-master/apriltags2/include/common/matd.h:280:60:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [-Wsign-compare]
+     return (a->ncols == 1 && a->nrows == len) || (a->ncols == len && a->nrows == 1);
+[01;32m[K                                                            ^[m[K
+[ 66%] [32m[1mLinking CXX shared library /home/kevin/workSpace/hw5_ws/devel/.private/apriltags2_ros/lib/libcommon.so[0m
+[ 66%] Built target common
+[35m[1mScanning dependencies of target continuous_detector[0m
+[35m[1mScanning dependencies of target single_image_detector[0m
+[35m[1mScanning dependencies of target apriltags2_ros_single_image_client_node[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/single_image_detector.dir/src/single_image_detector.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/continuous_detector.dir/src/continuous_detector.cpp.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/apriltags2_ros_single_image_client_node.dir/src/apriltags2_ros_single_image_client_node.cpp.o[0m
+In file included from [01m[K/home/kevin/workSpace/hw5_ws/src/apriltags2_ros-master/apriltags2/include/apriltag.h:42:0[m[K,
+                 from [01m[K/home/kevin/workSpace/hw5_ws/src/apriltags2_ros-master/apriltags2_ros/include/apriltags2_ros/common_functions.h:67[m[K,
+                 from [01m[K/home/kevin/workSpace/hw5_ws/src/apriltags2_ros-master/apriltags2_ros/src/apriltags2_ros_single_image_client_node.cpp:32[m[K:
+[01m[K/home/kevin/workSpace/hw5_ws/src/apriltags2_ros-master/apriltags2/include/common/matd.h:[m[K In function ‘[01m[Kint matd_is_vector_len(const matd_t*, int)[m[K’:
+[01m[K/home/kevin/workSpace/hw5_ws/src/apriltags2_ros-master/apriltags2/include/common/matd.h:280:39:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [-Wsign-compare]
+     return (a->ncols == 1 && a->nrows == len) || (a->ncols == len && a->nrows == 1);
+[01;32m[K                                       ^[m[K
+[01m[K/home/kevin/workSpace/hw5_ws/src/apriltags2_ros-master/apriltags2/include/common/matd.h:280:60:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [-Wsign-compare]
+     return (a->ncols == 1 && a->nrows == len) || (a->ncols == len && a->nrows == 1);
+[01;32m[K                                                            ^[m[K
+In file included from [01m[K/home/kevin/workSpace/hw5_ws/src/apriltags2_ros-master/apriltags2/include/apriltag.h:42:0[m[K,
+                 from [01m[K/home/kevin/workSpace/hw5_ws/src/apriltags2_ros-master/apriltags2_ros/include/apriltags2_ros/common_functions.h:67[m[K,
+                 from [01m[K/home/kevin/workSpace/hw5_ws/src/apriltags2_ros-master/apriltags2_ros/include/apriltags2_ros/continuous_detector.h:46[m[K,
+                 from [01m[K/home/kevin/workSpace/hw5_ws/src/apriltags2_ros-master/apriltags2_ros/src/continuous_detector.cpp:32[m[K:
+[01m[K/home/kevin/workSpace/hw5_ws/src/apriltags2_ros-master/apriltags2/include/common/matd.h:[m[K In function ‘[01m[Kint matd_is_vector_len(const matd_t*, int)[m[K’:
+[01m[K/home/kevin/workSpace/hw5_ws/src/apriltags2_ros-master/apriltags2/include/common/matd.h:280:39:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [-Wsign-compare]
+     return (a->ncols == 1 && a->nrows == len) || (a->ncols == len && a->nrows == 1);
+[01;32m[K                                       ^[m[K
+[01m[K/home/kevin/workSpace/hw5_ws/src/apriltags2_ros-master/apriltags2/include/common/matd.h:280:60:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [-Wsign-compare]
+     return (a->ncols == 1 && a->nrows == len) || (a->ncols == len && a->nrows == 1);
+[01;32m[K                                                            ^[m[K
+In file included from [01m[K/home/kevin/workSpace/hw5_ws/src/apriltags2_ros-master/apriltags2/include/apriltag.h:42:0[m[K,
+                 from [01m[K/home/kevin/workSpace/hw5_ws/src/apriltags2_ros-master/apriltags2_ros/include/apriltags2_ros/common_functions.h:67[m[K,
+                 from [01m[K/home/kevin/workSpace/hw5_ws/src/apriltags2_ros-master/apriltags2_ros/include/apriltags2_ros/single_image_detector.h:47[m[K,
+                 from [01m[K/home/kevin/workSpace/hw5_ws/src/apriltags2_ros-master/apriltags2_ros/src/single_image_detector.cpp:32[m[K:
+[01m[K/home/kevin/workSpace/hw5_ws/src/apriltags2_ros-master/apriltags2/include/common/matd.h:[m[K In function ‘[01m[Kint matd_is_vector_len(const matd_t*, int)[m[K’:
+[01m[K/home/kevin/workSpace/hw5_ws/src/apriltags2_ros-master/apriltags2/include/common/matd.h:280:39:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [-Wsign-compare]
+     return (a->ncols == 1 && a->nrows == len) || (a->ncols == len && a->nrows == 1);
+[01;32m[K                                       ^[m[K
+[01m[K/home/kevin/workSpace/hw5_ws/src/apriltags2_ros-master/apriltags2/include/common/matd.h:280:60:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [-Wsign-compare]
+     return (a->ncols == 1 && a->nrows == len) || (a->ncols == len && a->nrows == 1);
+[01;32m[K                                                            ^[m[K
+[ 80%] [32m[1mLinking CXX executable /home/kevin/workSpace/hw5_ws/devel/.private/apriltags2_ros/lib/apriltags2_ros/apriltags2_ros_single_image_client_node[0m
+[ 80%] Built target apriltags2_ros_single_image_client_node
+[ 83%] [32m[1mLinking CXX shared library /home/kevin/workSpace/hw5_ws/devel/.private/apriltags2_ros/lib/libcontinuous_detector.so[0m
+[ 83%] Built target continuous_detector
+[35m[1mScanning dependencies of target apriltags2_ros_continuous_node[0m
+[ 86%] [32mBuilding CXX object CMakeFiles/apriltags2_ros_continuous_node.dir/src/apriltags2_ros_continuous_node.cpp.o[0m
+[ 90%] [32m[1mLinking CXX shared library /home/kevin/workSpace/hw5_ws/devel/.private/apriltags2_ros/lib/libsingle_image_detector.so[0m
+[ 90%] Built target single_image_detector
+[35m[1mScanning dependencies of target apriltags2_ros_single_image_server_node[0m
+[ 93%] [32mBuilding CXX object CMakeFiles/apriltags2_ros_single_image_server_node.dir/src/apriltags2_ros_single_image_server_node.cpp.o[0m
+[ 96%] [32m[1mLinking CXX executable /home/kevin/workSpace/hw5_ws/devel/.private/apriltags2_ros/lib/apriltags2_ros/apriltags2_ros_continuous_node[0m
+[ 96%] Built target apriltags2_ros_continuous_node
+In file included from [01m[K/home/kevin/workSpace/hw5_ws/src/apriltags2_ros-master/apriltags2/include/apriltag.h:42:0[m[K,
+                 from [01m[K/home/kevin/workSpace/hw5_ws/src/apriltags2_ros-master/apriltags2_ros/include/apriltags2_ros/common_functions.h:67[m[K,
+                 from [01m[K/home/kevin/workSpace/hw5_ws/src/apriltags2_ros-master/apriltags2_ros/src/apriltags2_ros_single_image_server_node.cpp:32[m[K:
+[01m[K/home/kevin/workSpace/hw5_ws/src/apriltags2_ros-master/apriltags2/include/common/matd.h:[m[K In function ‘[01m[Kint matd_is_vector_len(const matd_t*, int)[m[K’:
+[01m[K/home/kevin/workSpace/hw5_ws/src/apriltags2_ros-master/apriltags2/include/common/matd.h:280:39:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [-Wsign-compare]
+     return (a->ncols == 1 && a->nrows == len) || (a->ncols == len && a->nrows == 1);
+[01;32m[K                                       ^[m[K
+[01m[K/home/kevin/workSpace/hw5_ws/src/apriltags2_ros-master/apriltags2/include/common/matd.h:280:60:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [-Wsign-compare]
+     return (a->ncols == 1 && a->nrows == len) || (a->ncols == len && a->nrows == 1);
+[01;32m[K                                                            ^[m[K
+[100%] [32m[1mLinking CXX executable /home/kevin/workSpace/hw5_ws/devel/.private/apriltags2_ros/lib/apriltags2_ros/apriltags2_ros_single_image_server_node[0m
+[100%] Built target apriltags2_ros_single_image_server_node

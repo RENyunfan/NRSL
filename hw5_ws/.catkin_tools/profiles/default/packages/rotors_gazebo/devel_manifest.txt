@@ -1,0 +1,7 @@
+rotors_simulator/rotors_gazebo
+/home/kevin/workSpace/hw5_ws/devel/.private/rotors_gazebo/share/rotors_gazebo/cmake/rotors_gazeboConfig-version.cmake /home/kevin/workSpace/hw5_ws/devel/share/rotors_gazebo/cmake/rotors_gazeboConfig-version.cmake
+/home/kevin/workSpace/hw5_ws/devel/.private/rotors_gazebo/share/rotors_gazebo/cmake/rotors_gazeboConfig.cmake /home/kevin/workSpace/hw5_ws/devel/share/rotors_gazebo/cmake/rotors_gazeboConfig.cmake
+/home/kevin/workSpace/hw5_ws/devel/.private/rotors_gazebo/lib/pkgconfig/rotors_gazebo.pc /home/kevin/workSpace/hw5_ws/devel/lib/pkgconfig/rotors_gazebo.pc
+/home/kevin/workSpace/hw5_ws/devel/.private/rotors_gazebo/lib/rotors_gazebo/waypoint_publisher /home/kevin/workSpace/hw5_ws/devel/lib/rotors_gazebo/waypoint_publisher
+/home/kevin/workSpace/hw5_ws/devel/.private/rotors_gazebo/lib/rotors_gazebo/waypoint_publisher_file /home/kevin/workSpace/hw5_ws/devel/lib/rotors_gazebo/waypoint_publisher_file
+/home/kevin/workSpace/hw5_ws/devel/.private/rotors_gazebo/lib/rotors_gazebo/hovering_example /home/kevin/workSpace/hw5_ws/devel/lib/rotors_gazebo/hovering_example
