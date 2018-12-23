@@ -1,0 +1,34 @@
+#April ros
+##1
+首先打开相机驱动,并在
+```
+/home/kevin/workSpace/hw5_ws/src/apriltags2_ros-master/apriltags2_ros/config/tags.yaml
+```
+中写入相机对应参数
+```
+standalone_tags:
+  [
+{id: 0, size: 0.15},{id: 1, size: 0.15},{id: 2, size: 0.15},
+  ]
+# ## Tag bundle definitions
+```
+
+随后在launch文件中更改为制定topic
+```
+  <arg name="camera_name" default="/usb_cam" />
+  <arg name="camera_frame" default="camera" />
+  <arg name="image_topic" default="image_raw" />
+  
+  
+``` 
+  然后运行opencv中的
+  
+``` 
+ $ roslaunch robot_vision usb_cam.launch
+```
+ 
+ 
+ 随后在另一终端运行
+```
+$ roslaunch apriltags2_ros continuous_detection.launch
+```

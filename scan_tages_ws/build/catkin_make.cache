@@ -1,0 +1,2 @@
+apriltags2_ros-master/apriltags2:apriltags2_ros-master/apriltags2_ros:posdetect:pub_pose_contral
+-DCATKIN_DEVEL_PREFIX=/home/kevin/workSpace/scan_tages_ws/devel -DCMAKE_INSTALL_PREFIX=/home/kevin/workSpace/scan_tages_ws/install -G Unix Makefiles
