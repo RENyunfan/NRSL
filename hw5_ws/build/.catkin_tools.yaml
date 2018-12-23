@@ -1,0 +1,6 @@
+devel_space: /home/kevin/workSpace/hw5_ws/devel
+install: false
+install_space: /home/kevin/workSpace/hw5_ws/install
+profile: default
+source_space: /home/kevin/workSpace/hw5_ws/src
+workspace: /home/kevin/workSpace/hw5_ws

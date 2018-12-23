@@ -1,0 +1,3 @@
+<launch>
+    <node name="hand_pose" pkg="pub_pose_contral" type="pub" />
+</launch>

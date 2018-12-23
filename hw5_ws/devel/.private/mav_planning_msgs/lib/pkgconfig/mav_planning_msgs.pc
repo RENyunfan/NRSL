@@ -1,0 +1,8 @@
+prefix=/home/kevin/workSpace/hw5_ws/devel/.private/mav_planning_msgs
+
+Name: mav_planning_msgs
+Description: Description of mav_planning_msgs
+Version: 3.3.2
+Cflags: -I/home/kevin/workSpace/hw5_ws/devel/.private/mav_planning_msgs/include -I/home/kevin/workSpace/hw5_ws/src/mav_comm/mav_planning_msgs/include -I/usr/include/eigen3
+Libs: -L/home/kevin/workSpace/hw5_ws/devel/.private/mav_planning_msgs/lib 
+Requires: message_runtime geometry_msgs sensor_msgs std_msgs mav_msgs trajectory_msgs

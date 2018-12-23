@@ -1,0 +1,8 @@
+prefix=/home/kevin/workSpace/hw5_ws/devel/.private/rotors_control
+
+Name: rotors_control
+Description: Description of rotors_control
+Version: 2.1.1
+Cflags: -I/home/kevin/workSpace/hw5_ws/src/rotors_simulator/rotors_control/include -I/usr/include/eigen3
+Libs: -L/home/kevin/workSpace/hw5_ws/devel/.private/rotors_control/lib -llee_position_controller -lroll_pitch_yawrate_thrust_controller
+Requires: geometry_msgs mav_msgs nav_msgs roscpp sensor_msgs

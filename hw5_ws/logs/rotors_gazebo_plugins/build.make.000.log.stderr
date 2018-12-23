@@ -1,0 +1,21 @@
+[libprotobuf WARNING google/protobuf/descriptor.cc:5411] Warning: Unused import: "MagneticField.proto" imports "quaternion.proto" which is not used.
+[01m[K/home/kevin/workSpace/hw5_ws/src/rotors_simulator/rotors_gazebo_plugins/src/external/gazebo_geotagged_images_plugin.cpp:[m[K In member function ‘[01m[Kvirtual void gazebo::GeotaggedImagesPlugin::Load(gazebo::sensors::SensorPtr, sdf::ElementPtr)[m[K’:
+[01m[K/home/kevin/workSpace/hw5_ws/src/rotors_simulator/rotors_gazebo_plugins/src/external/gazebo_geotagged_images_plugin.cpp:83:39:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgazebo::common::Time gazebo::rendering::Scene::GetSimTime() const[m[K’ is deprecated [-Wdeprecated-declarations]
+   lastImageTime_ = scene_->GetSimTime();
+[01;32m[K                                       ^[m[K
+In file included from [01m[K/usr/include/gazebo-7/gazebo/rendering/rendering.hh:40:0[m[K,
+                 from [01m[K/home/kevin/workSpace/hw5_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/external/gazebo_geotagged_images_plugin.h:30[m[K,
+                 from [01m[K/home/kevin/workSpace/hw5_ws/src/rotors_simulator/rotors_gazebo_plugins/src/external/gazebo_geotagged_images_plugin.cpp:18[m[K:
+[01m[K/usr/include/gazebo-7/gazebo/rendering/Scene.hh:639:28:[m[K [01;36m[Knote: [m[Kdeclared here
+       public: common::Time GetSimTime() const GAZEBO_DEPRECATED(7.0);
+[01;32m[K                            ^[m[K
+[01m[K/home/kevin/workSpace/hw5_ws/src/rotors_simulator/rotors_gazebo_plugins/src/external/gazebo_geotagged_images_plugin.cpp:[m[K In member function ‘[01m[Kvoid gazebo::GeotaggedImagesPlugin::OnNewFrame(const unsigned char*)[m[K’:
+[01m[K/home/kevin/workSpace/hw5_ws/src/rotors_simulator/rotors_gazebo_plugins/src/external/gazebo_geotagged_images_plugin.cpp:161:49:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgazebo::common::Time gazebo::rendering::Scene::GetSimTime() const[m[K’ is deprecated [-Wdeprecated-declarations]
+   common::Time currentTime = scene_->GetSimTime();
+[01;32m[K                                                 ^[m[K
+In file included from [01m[K/usr/include/gazebo-7/gazebo/rendering/rendering.hh:40:0[m[K,
+                 from [01m[K/home/kevin/workSpace/hw5_ws/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/external/gazebo_geotagged_images_plugin.h:30[m[K,
+                 from [01m[K/home/kevin/workSpace/hw5_ws/src/rotors_simulator/rotors_gazebo_plugins/src/external/gazebo_geotagged_images_plugin.cpp:18[m[K:
+[01m[K/usr/include/gazebo-7/gazebo/rendering/Scene.hh:639:28:[m[K [01;36m[Knote: [m[Kdeclared here
+       public: common::Time GetSimTime() const GAZEBO_DEPRECATED(7.0);
+[01;32m[K                            ^[m[K

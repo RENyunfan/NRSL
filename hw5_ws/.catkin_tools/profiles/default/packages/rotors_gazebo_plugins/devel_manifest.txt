@@ -1,0 +1,19 @@
+rotors_simulator/rotors_gazebo_plugins
+/home/kevin/workSpace/hw5_ws/devel/.private/rotors_gazebo_plugins/share/rotors_gazebo_plugins/cmake/rotors_gazebo_pluginsConfig-version.cmake /home/kevin/workSpace/hw5_ws/devel/share/rotors_gazebo_plugins/cmake/rotors_gazebo_pluginsConfig-version.cmake
+/home/kevin/workSpace/hw5_ws/devel/.private/rotors_gazebo_plugins/share/rotors_gazebo_plugins/cmake/rotors_gazebo_pluginsConfig.cmake /home/kevin/workSpace/hw5_ws/devel/share/rotors_gazebo_plugins/cmake/rotors_gazebo_pluginsConfig.cmake
+/home/kevin/workSpace/hw5_ws/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_bag_plugin.so /home/kevin/workSpace/hw5_ws/devel/lib/librotors_gazebo_bag_plugin.so
+/home/kevin/workSpace/hw5_ws/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_ros_interface_plugin.so /home/kevin/workSpace/hw5_ws/devel/lib/librotors_gazebo_ros_interface_plugin.so
+/home/kevin/workSpace/hw5_ws/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_gps_plugin.so /home/kevin/workSpace/hw5_ws/devel/lib/librotors_gazebo_gps_plugin.so
+/home/kevin/workSpace/hw5_ws/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_multirotor_base_plugin.so /home/kevin/workSpace/hw5_ws/devel/lib/librotors_gazebo_multirotor_base_plugin.so
+/home/kevin/workSpace/hw5_ws/devel/.private/rotors_gazebo_plugins/lib/libgazebo_geotagged_images_plugin.so /home/kevin/workSpace/hw5_ws/devel/lib/libgazebo_geotagged_images_plugin.so
+/home/kevin/workSpace/hw5_ws/devel/.private/rotors_gazebo_plugins/lib/libLiftDragPlugin.so /home/kevin/workSpace/hw5_ws/devel/lib/libLiftDragPlugin.so
+/home/kevin/workSpace/hw5_ws/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_lidar_plugin.so /home/kevin/workSpace/hw5_ws/devel/lib/librotors_gazebo_lidar_plugin.so
+/home/kevin/workSpace/hw5_ws/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_fw_dynamics_plugin.so /home/kevin/workSpace/hw5_ws/devel/lib/librotors_gazebo_fw_dynamics_plugin.so
+/home/kevin/workSpace/hw5_ws/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_motor_model.so /home/kevin/workSpace/hw5_ws/devel/lib/librotors_gazebo_motor_model.so
+/home/kevin/workSpace/hw5_ws/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_wind_plugin.so /home/kevin/workSpace/hw5_ws/devel/lib/librotors_gazebo_wind_plugin.so
+/home/kevin/workSpace/hw5_ws/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_odometry_plugin.so /home/kevin/workSpace/hw5_ws/devel/lib/librotors_gazebo_odometry_plugin.so
+/home/kevin/workSpace/hw5_ws/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_controller_interface.so /home/kevin/workSpace/hw5_ws/devel/lib/librotors_gazebo_controller_interface.so
+/home/kevin/workSpace/hw5_ws/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_magnetometer_plugin.so /home/kevin/workSpace/hw5_ws/devel/lib/librotors_gazebo_magnetometer_plugin.so
+/home/kevin/workSpace/hw5_ws/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_imu_plugin.so /home/kevin/workSpace/hw5_ws/devel/lib/librotors_gazebo_imu_plugin.so
+/home/kevin/workSpace/hw5_ws/devel/.private/rotors_gazebo_plugins/lib/librotors_gazebo_pressure_plugin.so /home/kevin/workSpace/hw5_ws/devel/lib/librotors_gazebo_pressure_plugin.so
+/home/kevin/workSpace/hw5_ws/devel/.private/rotors_gazebo_plugins/lib/pkgconfig/rotors_gazebo_plugins.pc /home/kevin/workSpace/hw5_ws/devel/lib/pkgconfig/rotors_gazebo_plugins.pc

@@ -1,0 +1,1 @@
+/home/kevin/workSpace/hw5_ws/devel/.private/apriltags2_ros/share/apriltags2_ros/cmake/apriltags2_rosConfig-version.cmake

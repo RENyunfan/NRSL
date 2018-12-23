@@ -1,0 +1,41 @@
+#1216未整理笔记
+##1
+在使用robot_vison时一直显示
+```
+rosrun robot_vision cv_bridge_test.py
+[rosrun] Couldn't find executable named cv_bridge_test.py below /home/kevin/workSpace/opencvRos_ws/src/robot_vision
+[rosrun] Found the following, but they're either not files,
+[rosrun] or not executable:
+[rosrun]   /home/kevin/workSpace/opencvRos_ws/src/robot_vision/scripts/cv_bridge_test.py
+
+```
+原因是没有讲python授权为可执行文件
+```
+sudo chmod +x ./cv_bridge_test.py
+```
+
+
+##2
+```
+ackage):
+  Could not find a package configuration file provided by "OpenCV" with any
+  of the following names:
+
+    OpenCVConfig.cmake
+    opencv-config.cmake
+```
+找不到的时候在cmakelist里重新find了opencv的pkg
+```
+find_package(catkin REQUIRED COMPONENTS
+  cv_bridge
+  image_transport
+
+)
+find_package(OpenCV REQUIRED) 
+```
+ 
+##3
+启动模型
+```
+roslaunch rotors_gazebo mav_hovering_example.launch mav_name:=firefly world_name:=basic
+```

@@ -1,0 +1,8 @@
+prefix=/home/kevin/workSpace/scan_tages_ws/devel
+
+Name: apriltags2
+Description: Description of apriltags2
+Version: 0.9.8
+Cflags: -I/home/kevin/workSpace/scan_tages_ws/src/apriltags2_ros-master/apriltags2/include
+Libs: -L/home/kevin/workSpace/scan_tages_ws/devel/lib -lapriltags2
+Requires: 

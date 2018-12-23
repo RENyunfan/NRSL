@@ -1,0 +1,8 @@
+prefix=/home/kevin/workSpace/hw5_ws/install
+
+Name: rotors_gazebo_plugins
+Description: Description of rotors_gazebo_plugins
+Version: 2.1.1
+Cflags: -I/home/kevin/workSpace/hw5_ws/install/include -I/usr/include/eigen3
+Libs: -L/home/kevin/workSpace/hw5_ws/install/lib -lrotors_gazebo_motor_model -lrotors_gazebo_controller_interface
+Requires: cv_bridge geometry_msgs mav_msgs octomap_msgs octomap_ros rosbag roscpp rotors_comm rotors_control std_srvs tf

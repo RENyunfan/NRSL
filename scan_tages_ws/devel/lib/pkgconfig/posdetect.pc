@@ -1,0 +1,8 @@
+prefix=/home/kevin/workSpace/scan_tages_ws/devel
+
+Name: posdetect
+Description: Description of posdetect
+Version: 0.0.0
+Cflags: -I/home/kevin/workSpace/scan_tages_ws/devel/include
+Libs: -L/home/kevin/workSpace/scan_tages_ws/devel/lib 
+Requires: apriltags2 geometry_msgs roscpp std_msgs message_runtime

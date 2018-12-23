@@ -1,0 +1,8 @@
+prefix=/home/kevin/workSpace/scan_tages_ws/devel
+
+Name: pub_pose_contral
+Description: Description of pub_pose_contral
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/kevin/workSpace/scan_tages_ws/devel/lib 
+Requires: 

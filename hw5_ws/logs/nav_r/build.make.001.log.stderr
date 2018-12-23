@@ -1,0 +1,5 @@
+[01m[K/home/kevin/workSpace/hw5_ws/src/nav_r/src/pub_pose.cpp:1:51:[m[K [01;31m[Kfatal error: [m[Kapriltags2_ros/AprilTagDetectionArray.h: No such file or directory
+compilation terminated.
+make[2]: *** [CMakeFiles/pub_pose.dir/src/pub_pose.cpp.o] Error 1
+make[1]: *** [CMakeFiles/pub_pose.dir/all] Error 2
+make: *** [all] Error 2

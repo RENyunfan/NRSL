@@ -1,0 +1,1 @@
+/home/kevin/workSpace/hw5_ws/devel/.private/rotors_joy_interface/share/rotors_joy_interface/cmake/rotors_joy_interfaceConfig.cmake

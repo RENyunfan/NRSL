@@ -1,0 +1,1 @@
+/home/kevin/workSpace/hw5_ws/devel/.private/apriltags2_ros/share/roseus/ros/apriltags2_ros/manifest.l
