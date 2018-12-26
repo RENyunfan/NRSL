@@ -47,6 +47,8 @@ apriltags2_ros/AprilTagDetection.h
 /home/kevin/workSpace/scan_tages_ws/src/posdetect/src/detect.cpp
 apriltags2_ros/AprilTagDetectionArray.h
 /home/kevin/workSpace/scan_tages_ws/src/posdetect/src/apriltags2_ros/AprilTagDetectionArray.h
+cmath
+/home/kevin/workSpace/scan_tages_ws/src/posdetect/src/cmath
 geometry_msgs/Pose.h
 /home/kevin/workSpace/scan_tages_ws/src/posdetect/src/geometry_msgs/Pose.h
 geometry_msgs/PoseStamped.h
