@@ -5,11 +5,17 @@ posdetect/CMakeFiles/detect.dir/src/detect.cpp.o: /home/kevin/workSpace/scan_tag
 posdetect/CMakeFiles/detect.dir/src/detect.cpp.o: /home/kevin/workSpace/scan_tages_ws/devel/include/apriltags2_ros/AprilTagDetectionArray.h
 posdetect/CMakeFiles/detect.dir/src/detect.cpp.o: /home/kevin/workSpace/scan_tages_ws/src/posdetect/src/detect.cpp
 posdetect/CMakeFiles/detect.dir/src/detect.cpp.o: /opt/ros/kinetic/include/geometry_msgs/Point.h
+posdetect/CMakeFiles/detect.dir/src/detect.cpp.o: /opt/ros/kinetic/include/geometry_msgs/PointStamped.h
 posdetect/CMakeFiles/detect.dir/src/detect.cpp.o: /opt/ros/kinetic/include/geometry_msgs/Pose.h
 posdetect/CMakeFiles/detect.dir/src/detect.cpp.o: /opt/ros/kinetic/include/geometry_msgs/PoseStamped.h
 posdetect/CMakeFiles/detect.dir/src/detect.cpp.o: /opt/ros/kinetic/include/geometry_msgs/PoseWithCovariance.h
 posdetect/CMakeFiles/detect.dir/src/detect.cpp.o: /opt/ros/kinetic/include/geometry_msgs/PoseWithCovarianceStamped.h
 posdetect/CMakeFiles/detect.dir/src/detect.cpp.o: /opt/ros/kinetic/include/geometry_msgs/Quaternion.h
+posdetect/CMakeFiles/detect.dir/src/detect.cpp.o: /opt/ros/kinetic/include/geometry_msgs/QuaternionStamped.h
+posdetect/CMakeFiles/detect.dir/src/detect.cpp.o: /opt/ros/kinetic/include/geometry_msgs/Transform.h
+posdetect/CMakeFiles/detect.dir/src/detect.cpp.o: /opt/ros/kinetic/include/geometry_msgs/TransformStamped.h
+posdetect/CMakeFiles/detect.dir/src/detect.cpp.o: /opt/ros/kinetic/include/geometry_msgs/Vector3.h
+posdetect/CMakeFiles/detect.dir/src/detect.cpp.o: /opt/ros/kinetic/include/geometry_msgs/Vector3Stamped.h
 posdetect/CMakeFiles/detect.dir/src/detect.cpp.o: /opt/ros/kinetic/include/ros/advertise_options.h
 posdetect/CMakeFiles/detect.dir/src/detect.cpp.o: /opt/ros/kinetic/include/ros/advertise_service_options.h
 posdetect/CMakeFiles/detect.dir/src/detect.cpp.o: /opt/ros/kinetic/include/ros/assert.h
@@ -67,6 +73,14 @@ posdetect/CMakeFiles/detect.dir/src/detect.cpp.o: /opt/ros/kinetic/include/ros/w
 posdetect/CMakeFiles/detect.dir/src/detect.cpp.o: /opt/ros/kinetic/include/ros/wall_timer_options.h
 posdetect/CMakeFiles/detect.dir/src/detect.cpp.o: /opt/ros/kinetic/include/rosconsole/macros_generated.h
 posdetect/CMakeFiles/detect.dir/src/detect.cpp.o: /opt/ros/kinetic/include/std_msgs/Header.h
+posdetect/CMakeFiles/detect.dir/src/detect.cpp.o: /opt/ros/kinetic/include/tf/LinearMath/Matrix3x3.h
+posdetect/CMakeFiles/detect.dir/src/detect.cpp.o: /opt/ros/kinetic/include/tf/LinearMath/MinMax.h
+posdetect/CMakeFiles/detect.dir/src/detect.cpp.o: /opt/ros/kinetic/include/tf/LinearMath/QuadWord.h
+posdetect/CMakeFiles/detect.dir/src/detect.cpp.o: /opt/ros/kinetic/include/tf/LinearMath/Quaternion.h
+posdetect/CMakeFiles/detect.dir/src/detect.cpp.o: /opt/ros/kinetic/include/tf/LinearMath/Scalar.h
+posdetect/CMakeFiles/detect.dir/src/detect.cpp.o: /opt/ros/kinetic/include/tf/LinearMath/Transform.h
+posdetect/CMakeFiles/detect.dir/src/detect.cpp.o: /opt/ros/kinetic/include/tf/LinearMath/Vector3.h
+posdetect/CMakeFiles/detect.dir/src/detect.cpp.o: /opt/ros/kinetic/include/tf/transform_datatypes.h
 posdetect/CMakeFiles/detect.dir/src/detect.cpp.o: /opt/ros/kinetic/include/xmlrpcpp/XmlRpcDecl.h
 posdetect/CMakeFiles/detect.dir/src/detect.cpp.o: /opt/ros/kinetic/include/xmlrpcpp/XmlRpcValue.h
 

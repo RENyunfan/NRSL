@@ -6,11 +6,17 @@ posdetect/CMakeFiles/detect.dir/src/detect.cpp.o
  /home/kevin/workSpace/scan_tages_ws/devel/include/apriltags2_ros/AprilTagDetectionArray.h
  /home/kevin/workSpace/scan_tages_ws/src/posdetect/src/detect.cpp
  /opt/ros/kinetic/include/geometry_msgs/Point.h
+ /opt/ros/kinetic/include/geometry_msgs/PointStamped.h
  /opt/ros/kinetic/include/geometry_msgs/Pose.h
  /opt/ros/kinetic/include/geometry_msgs/PoseStamped.h
  /opt/ros/kinetic/include/geometry_msgs/PoseWithCovariance.h
  /opt/ros/kinetic/include/geometry_msgs/PoseWithCovarianceStamped.h
  /opt/ros/kinetic/include/geometry_msgs/Quaternion.h
+ /opt/ros/kinetic/include/geometry_msgs/QuaternionStamped.h
+ /opt/ros/kinetic/include/geometry_msgs/Transform.h
+ /opt/ros/kinetic/include/geometry_msgs/TransformStamped.h
+ /opt/ros/kinetic/include/geometry_msgs/Vector3.h
+ /opt/ros/kinetic/include/geometry_msgs/Vector3Stamped.h
  /opt/ros/kinetic/include/ros/advertise_options.h
  /opt/ros/kinetic/include/ros/advertise_service_options.h
  /opt/ros/kinetic/include/ros/assert.h
@@ -68,5 +74,13 @@ posdetect/CMakeFiles/detect.dir/src/detect.cpp.o
  /opt/ros/kinetic/include/ros/wall_timer_options.h
  /opt/ros/kinetic/include/rosconsole/macros_generated.h
  /opt/ros/kinetic/include/std_msgs/Header.h
+ /opt/ros/kinetic/include/tf/LinearMath/Matrix3x3.h
+ /opt/ros/kinetic/include/tf/LinearMath/MinMax.h
+ /opt/ros/kinetic/include/tf/LinearMath/QuadWord.h
+ /opt/ros/kinetic/include/tf/LinearMath/Quaternion.h
+ /opt/ros/kinetic/include/tf/LinearMath/Scalar.h
+ /opt/ros/kinetic/include/tf/LinearMath/Transform.h
+ /opt/ros/kinetic/include/tf/LinearMath/Vector3.h
+ /opt/ros/kinetic/include/tf/transform_datatypes.h
  /opt/ros/kinetic/include/xmlrpcpp/XmlRpcDecl.h
  /opt/ros/kinetic/include/xmlrpcpp/XmlRpcValue.h
